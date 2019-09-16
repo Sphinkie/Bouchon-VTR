@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+ 
+[-HKEY_CLASSES_ROOT\Directory\shell\runas]
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas]
+@="Open Command Window Here as Administrator"
+"Icon"="C:\\Windows\\System32\\imageres.dll,-78"
+ 
+[-HKEY_CLASSES_ROOT\Directory\shell\runas\command]
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+
