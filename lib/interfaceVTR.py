@@ -1,6 +1,7 @@
 # coding: UTF-8
 # ==================================================================
 # INTERFACE VTR
+# ------------------------------------------------------------------
 # Cette classe gère les différenst états que peut prendre le VTR
 # et réagit aux commandes reçues du GUI ou de la RS
 # ------------------------------------------------------------------
