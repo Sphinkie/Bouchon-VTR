@@ -8,10 +8,9 @@
 # ==================================================================
 
 import tkinter
-from common.Clock import *
-from common.StateMachine import *
-from lib.protocoleVTR import *
-
+from common.Clock        import Clock
+from common.StateMachine import StateMachine
+from lib.protocoleVTR    import *
 
 # les status : ejecting, ejected, cueing, cued , playing, stopped
 

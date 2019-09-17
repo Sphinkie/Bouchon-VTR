@@ -7,7 +7,7 @@
 import logging		# pour les logs
 from tkinter     import *
 import sys
-sys.path.append("..")
+# sys.path.append("..")
 from common.Common  import *
 from common.LogFile import *
 from lib.interfaceVTR import *
@@ -32,7 +32,7 @@ def main():
 	# ----------------------------------------------------
     fenetre  = Tk()
     # Initialisation du VTR
-    COMport = 'COM4'
+    COMport = 'COM1'
     vtr = interfaceVTR(fenetre, COMport)
 
 	# ----------------------------------------------------

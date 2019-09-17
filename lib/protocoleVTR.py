@@ -21,7 +21,6 @@ class protocoleVTR:
 	current_version = "v1.0"
 	# pour avoir la liste des ports visibles: py -m serial.tools.list_ports
 	
-
 	# ------------------------------------------------------------------
 	# Constructeur
 	# Parametre: handler sur le fichier de log

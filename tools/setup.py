@@ -13,5 +13,5 @@ setup(
     name = "BouchonVTR",
     version = "1.0",
     description = "Bouchon pour devices VTR",
-    executables = [Executable("BouchonVTR.py")],
+    executables = [Executable("..\BouchonVTR.py")],
     )
