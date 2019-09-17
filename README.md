@@ -2,7 +2,7 @@
 
 Serial VTR emulator
 
-![](D:\My Projects\Programmes\Bouchon-VTR\BouchonVTR.png)
+![](BouchonVTR.png)
 
 ## Utilisation
 
@@ -30,19 +30,13 @@ ou
 ##  Dependances
 
 Les librairries Python suivantes doivent être installées:
-<<<<<<< HEAD
-* Python 3.6
-* **tkinter** (pour l'interface graphique)
-* **cx_Freeze** (optionnel: pour la génération d'un exécutable)
-* **pyserial**   (`python -m pip install pyserial`)
-=======
+
 * **Python 3.6**
 * **tkinter** (pour l'interface graphique)
+* **pyserial**   (`py -m pip install pyserial`)
 * **cx_Freeze** (optionnel: utile seulement si on souhaite la génération d'une version exécutable)
->>>>>>> f8902948a18e0601d75fed9c277b778ca90e6195
 
 Ainsi que l'utilitaire:
 * **com0com**
 
-L'utilitaire **com0com** (_Null-modem emulator_) simule les échanges sur un port COM. Il est disponible sur SourceForge.
-https://sourceforge.net/projects/com0com/?source=typ_redirect
+L'utilitaire **com0com** (_Null-modem emulator_) simule les échanges sur un port COM. Il est disponible sur [SourceForge](https://sourceforge.net/projects/com0com).
