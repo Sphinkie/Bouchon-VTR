@@ -1,8 +1,6 @@
-# Bouchon VTR
+# Bouchon VTR : a Serial VTR emulator
 
-Serial VTR emulator
-
-![](BouchonVTR.png)
+![Serial VTR emulator](BouchonVTR.png)
 
 ## Utilisation
 
