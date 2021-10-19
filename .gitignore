@@ -1,3 +1,7 @@
 # files not stored on GitHub
 *.log
 *.pyc
+
+# temporary files for pyInstaller
+/build
+/dist

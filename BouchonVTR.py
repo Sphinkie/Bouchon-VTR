@@ -32,7 +32,7 @@ def main():
 	# ----------------------------------------------------
     fenetre  = Tk()
     # Initialisation du VTR
-    COMport = 'COM1'
+    COMport = 'COM3'
     vtr = interfaceVTR(fenetre, COMport)
 
 	# ----------------------------------------------------

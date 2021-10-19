@@ -16,19 +16,28 @@ pySerial fournit un outil (miniterm) qui permet de voir et d'envoyer des textes 
 On utilise le _miniterminal_ de Python avec la commande `py -m serial.tools.miniterm` (-h pour avoir l'aide), ou `miniterm.bat`.
 Pour connaitre la liste des ports COM visibles: `py -m serial.tools.list_ports`
 
-## Executable
+## Générer un exécutable avec pyInstaller
+
+Le fichier **makeBouchonVTR.bat** permet de générer un programme exécutable (.exe) en utilisant la librairie _pyInstaller_.
+
+Usage:
+
+Se placer dans l'environnement virtuel, puis lancer `makeBouchonVTR.bat` ou `pyinstaller --onefile BouchonVTR.py`. L'exécutable est alors généré dans `/dist`.
+
+
+##  
+
+## Générer un exécutable avec CX_Freeze
 
 Le fichier **setup.py** permet de générer un programme exécutable (.exe) en utilisant la librarie _cx_Freeze_.
 
 Usage:
-`compilation.bat`
-ou
-`py setup.py build`
+Lancer `compilation.bat` ou `py setup.py build`
 
 
-##  Dependances
+##  Dépendances
 
-Les librairries Python suivantes doivent être installées:
+Les librairies Python suivantes doivent être installées:
 
 * **Python 3.6**
 * **tkinter** (pour l'interface graphique)
@@ -43,6 +52,6 @@ Il est disponible sur [SourceForge](https://sourceforge.net/projects/com0com).
 (Installer uniquement la gestion des ports COM.)
 
 Par défaut, com0com ajoute deux ports série virtuels au PC (COM3 et COM4), et crée une passerelle entre les deux.
-=> On configure le **bouchonVTR** sur le port **COM4** (dans `bouchonVTR.py`)
-=> On configure le **Device VTR** du Device Controller sur le port **COM3** (dans `sgtDCSvr.xml`)
+=> On configure le **bouchon VTR** sur le port **COM3** (dans `bouchonVTR.py`)
+=> On configure le **Device VTR** du Device Controller sur le port **COM4** (dans `sgtDCSvr.xml`)
 
